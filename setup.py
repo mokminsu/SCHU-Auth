@@ -1,0 +1,31 @@
+from setuptools import find_packages, setup
+
+setup(
+    name='SCHU_Auth',
+    version='1.0.0',
+    author='mokminsu',
+    author_email='content@mokminsu.dev',
+    description='Soonchunhyang University Authentication.',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    url='https://github.com/mokminsu/SCHU-Auth',
+    packages=find_packages(),
+    install_requires=['requests', 'bs4', 'rsa'],
+    python_requires='>=3.7',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
+        'Programming Language :: Python :: 3.13',
+    ],
+)

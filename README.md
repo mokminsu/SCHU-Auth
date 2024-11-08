@@ -40,6 +40,17 @@ print("지도교수:", user_info.professor)
 ## 함수 설명
 * **authenticate** : 로그인 수행 후 재학생 정보를 수집하는 함수
 
+## 반환 타입
+```py3
+class AuthResponse:
+    user_id: str
+    name: str
+    gender: str
+    major: str
+    grade: str
+    professor: str
+```
+
 ## 예외 설명
 * **ValueError** : 인증 정보 오류 또는 사이트 장애시 발생하는 예외
 

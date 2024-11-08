@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='SCHU_Auth',
-    version='1.0.0',
+    version='1.0.1',
     author='mokminsu',
     author_email='content@mokminsu.dev',
     description='Soonchunhyang University Authentication.',

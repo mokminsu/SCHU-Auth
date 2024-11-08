@@ -6,7 +6,7 @@ setup(
     author='mokminsu',
     author_email='content@mokminsu.dev',
     description='Soonchunhyang University Authentication.',
-    long_description=open('README.md').read(),
+    long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/mokminsu/SCHU-Auth',
     packages=find_packages(),
